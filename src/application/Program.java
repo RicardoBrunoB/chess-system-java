@@ -50,7 +50,6 @@ public class Program {
 					chessMatch.replacePromotedPiece(type);
 				}
 			}
-
 			catch (ChessException e) {
 				System.out.println(e.getMessage());
 				sc.nextLine();
